@@ -9,11 +9,11 @@
     "were491 (rha1117)"
   ],
   "contact": {
-    "homepage": "I swear I'll add a repository later!",
-    "sources": "https://github.com/were491"
+    "homepage": "https://github.com/were491",
+    "sources": "https://github.com/were491/ServersideFreecam"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL v3.0",
   "icon": "assets/serversidefreecam/icon.png",
 
   "environment": "*",
