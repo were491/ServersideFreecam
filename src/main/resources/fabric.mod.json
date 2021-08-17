@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "serversidefreecam",
+  "version": "${version}",
+
+  "name": "Serverside Freecam (Fabric)",
+  "description": "Allows the use of Freecam (Spectator) without allowing players to cheat.",
+  "authors": [
+    "were491 (rha1117)"
+  ],
+  "contact": {
+    "homepage": "I swear I'll add a repository later!",
+    "sources": "https://github.com/were491"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/serversidefreecam/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.rha1117.serversidefreecam.FreecamCommand"
+    ]
+  },
+  "mixins": [
+    "serversidefreecam.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
