@@ -4,3 +4,5 @@ FabricMC mod to allow the use of spectator mode (Freecam) without being *too* ch
 It follows all of zero (0) java conventions (probably) and has a design worse than a preschooler's first drawing, but it runs on 1.17 so I'm happy.
 
 Using Eclipse IDE 2021-06 + Azul Zulu JDK 16.32.15 64bit all on default settings.
+
+[![Requires Fabric API](https://i.imgur.com/HabVZJR.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
